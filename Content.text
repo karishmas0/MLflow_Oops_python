@@ -14,6 +14,12 @@
     setup your passward here--> abc
 5. End to end project (chatbook class)
     > Function vs method
-    > encapsulation
-    > getter and setter
-    > static method
+    > magic method or dunder method
+    > self
+    > you can create attribute outside class as well
+
+    > encapsulation --- extra privicy---protect means HIDE karna 
+    > getter and setter- method to get the hidden attribute and set the hidden attribute 
+    > static method-- do not need to give obje means self
+
+    > inheritance 

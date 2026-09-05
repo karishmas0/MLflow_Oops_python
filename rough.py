@@ -15,14 +15,34 @@
 # print(a+b)# output xy
 
 from oops_proj import chatbook
+user1=chatbook()
+# print(user1.__name)
+# print(user1._chatbook__name)
+#function vs method below
+# lst=[1,2,3]
+# #function
+# a1=len(lst)
+# print(a1)
+
 # user1=chatbook()
 
-#function vs method below
-lst=[1,2,3]
-#function
-a1=len(lst)
-print(a1)
+# user1.sendmsg()
 
-user1=chatbook()
-print([m for m in dir(user1) if not m.startswith("_")])
-user1.
+# #getter and setter
+# print(user1.get_name())
+# user1.set_name("Agent X")
+# print(user1.get_name())
+
+print(user1.id)
+
+
+# user2=chatbook()
+# print(user2.id)
+
+# user3=chatbook()
+# print(user3.id)
+
+#Using static method directly from class rather than obj
+chatbook.set_id(10)
+user2=chatbook()
+print(user2.id)
