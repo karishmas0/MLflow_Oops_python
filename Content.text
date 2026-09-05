@@ -21,5 +21,16 @@
     > encapsulation --- extra privicy---protect means HIDE karna 
     > getter and setter- method to get the hidden attribute and set the hidden attribute 
     > static method-- do not need to give obje means self
+6 inheritance 
+    > Inheritance code example 
+    > why inheritance is needed?(code reuseability, parent has no access to child class)
+    > what gets inherited? - Constructor, Non private attributes,Non private methods
+    > contructor overloading and method overloading
+    > super keyword( can be used only inside class, can not access variables/attributes, used only inside child class)
+    > Types of inheritance:
+        1. Single Inheritance
+        2. Multilevel
+        3. hierarchical
+        4. Multiple <Diamond problem>
+        5. Hybrid
 
-    > inheritance 
