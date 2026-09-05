@@ -1,0 +1,22 @@
+[1mdiff --git a/rough.py b/rough.py[m
+[1mindex 109d4f5..8ab3d6f 100644[m
+[1m--- a/rough.py[m
+[1m+++ b/rough.py[m
+[36m@@ -15,4 +15,14 @@[m
+ # print(a+b)# output xy[m
+ [m
+ from oops_proj import chatbook[m
+[31m-user1=chatbook()[m
+\ No newline at end of file[m
+[32m+[m[32m# user1=chatbook()[m
+[32m+[m
+[32m+[m[32m#function vs method below[m
+[32m+[m[32mlst=[1,2,3][m
+[32m+[m[32m#function[m
+[32m+[m[32ma1=len(lst)[m
+[32m+[m[32mprint(a1)[m
+[32m+[m
+[32m+[m[32muser1=chatbook()[m
+[32m+[m[32mprint([m for m in dir(user1) if not m.startswith("_")])[m
+[32m+[m[32muser1.[m
+\ No newline at end of file[m
